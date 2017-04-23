@@ -1,3 +1,4 @@
+html, body { height: 100%; }
 .navbar {
     background-color: #222;
 }
@@ -102,3 +103,103 @@
 .tiles-images > .col-md-4 > img {
     margin: 20px 0px 10px 0px;
 }
+
+.newsletter{
+    text-align: center;
+    padding: 100px 10px 100px 10px;
+    background: url("/img/newsletter-white-background.png");
+}
+
+.newsletter > .container > p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.center_div{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+@media (max-width: 600px) {
+    .center_div{
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        display:block;
+    }
+
+}
+
+.app-store{
+    background: url("/img/black-pattern-wallpapers.png");
+    color:white;
+    padding: 50px 10px 50px 10px;
+}
+
+.app-info{
+    padding-top: 200px;
+    
+}
+
+.app-info > p{
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .app-info{
+        padding-top: 50px;
+
+    }
+}
+
+#siteinfo{
+    padding: 0;
+    list-style-type: none;
+}
+
+#siteinfo > li >a {
+    display:inline;
+    
+}
+
+.app-links{
+    padding: 0;
+    list-style-type: none;
+}
+
+.app-links > li{
+    display:inline;
+    padding-right: 10px;
+}
+
+.app-links > li > img{
+    padding-top: 20px;
+}
+
+.footer{
+    background-color: #1a1a1a;
+    padding: 70px;
+    
+}
+
+.footer > p{
+    color:white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.socialmedialinks{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.socialmedialinks > li{
+    display:inline;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+
