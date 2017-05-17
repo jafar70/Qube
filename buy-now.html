@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Qube</title>
+    <link rel="shortcut icon" href="img/Qube_Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/1102aa779d.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-formhelpers.min.css">
+</head>
+
+<body>
+    <div class="bg-navbar">
+        <div class="container">
+            <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="commRollover">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/qube_navbar_brand.webp" width="126px" height="54px"></a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="feature.html">FEATURE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SUPPORT</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="buy-now.html">BUY NOW</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="mobile-navbar">
+    <nav class="navbar fixed-top navbar-toggleable-sm navbar-light bg-inverse desktop-navbar">
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/qube_navbar_brand.webp" width="126px" height="54px"></a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feature.html">FEATURE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SUPPORT</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="buy-now.html">BUY NOW</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /container -->
+    </nav>
+    </div>
+
+    <div class="product">
+        <div class="container">
+            <h1 class="text-center">Buy Your Qube Online Today!</h1>
+            <p class="lead text-center">Check out our products.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img id="zoom_01" src="img/dp_ml5els.png" class="img-fluid" data-zoom-image="img/dp_ml5els-large.png"/>
+                </div>
+                <div class="col-md-6 product-section">
+                    <h3>Qube Smart Bulb (Wi-Fi, Bluetooth, Dimmable, Multi-Color)</h3>
+                    <p><b>$29.99</b></p>
+                    <p>With Qube™, you can control your lights anytime, anywhere and also create countless automation. </p>
+                    <p>1000 lumens, 16 million colors and shades of warm to cool whites. Available in E26, E27 and B22 sizes. </p>
+                    <p>30 Day Guarantee. 1-Year Warranty.</p>
+                    <form>
+                      <div class="form-group">
+                        <select class="form-control" id="exampleSelect1">
+                          <option>Select an option</option>
+                          <option>E26</option>
+                          <option>E26</option>
+                          <option>B22</option>
+                        </select>
+                      </div>
+                      <div class="input-group">
+                         <label for="inputPassword3" class="col-sm-2 col-form-label"><p>Quantity</p></label>
+                          <span class="input-group-btn">
+                              <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                  <i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                          </span>
+                          <input type="text" name="quant[1]" class="form-control form-control-lg input-number" value="1" min="1" max="10" style="position: relative;z-index: 1;">
+                          <span class="input-group-btn">
+                              <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                              </button>
+                          </span>
+                      </div>
+                      <br><br>
+                      <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+    <div class="footer">
+        <ul class="socialmedialinks">
+            <li>
+                <span class="fa-stack fa-sm">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+            </li>
+            <li>
+                <span class="fa-stack fa-sm">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+            </li>
+            <li>
+                <span class="fa-stack fa-sm">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+            </li>
+            <li>
+                <span class="fa-stack fa-sm">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                </span>
+            </li>
+            <li>
+                <span class="fa-stack fa-sm">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+            </li>
+            <br><br>
+            <li>
+                <a href="#!">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#!">Terms of Service</a>
+            </li>
+            <li>
+                <a href="#!">Returns and Warranty</a>
+            </li>
+        </ul>
+        
+        
+        <p>© 2017 Qube, Qube designs are trademarks of Qube, LLC. All rights reserved.<br>Email: social@qube-smarthome.com <br> Created by <a href="http://josalami.pythonanywhere.com/">Jafar Salami</a></p>
+    </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div>
+                        <iframe width="100%" height="350" src=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.youtubemodal.js"></script>
+    <script src="js/bootstrap-formhelpers.js"></script>
+    <script src='js/jquery.elevatezoom.js'></script>
+    <script>
+    $("#zoom_01").elevateZoom();
+</script>
+</body>
+
+</html>

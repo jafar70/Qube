@@ -60,7 +60,6 @@ body {
     height: 45rem;
 }
 
-
 @media only screen  and (min-width : 1224px){
     .carousel-caption {
         z-index: 10;
@@ -77,12 +76,21 @@ body {
 .btn-primary {
     background-color: #222;
     border: #222;
+    color: #fff;
 }
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: #3e3e3e;
-    border: #3e3e3e;
+    border:  #3e3e3e;
+    color: #fff;
+    outline:none !important;
 }
+
+.btn:focus,.btn:active {
+   border:none !important;
+   outline:none !important;
+}
+
 .seenon {
     min-width: 100%;
     min-height: 120px;
@@ -153,8 +161,8 @@ body {
 @media (max-width: 600px) {
     .app-info{
         padding-top: 50px;
-
     }
+    
 }
 
 #siteinfo{
@@ -255,4 +263,80 @@ body {
         font-size: 80px;
         margin:30px -43px -20px 100px;
     }
+}
+
+.WI-FI{
+    background: url("../img/ecomm_zciifz.png");
+    padding-top: 160px;
+    margin-top: 70px;
+    padding-bottom: 200px;
+    color: white;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.Moods{
+    background: url("../img/relax_00000_qvcqmr.png");
+    padding-top: 160px;
+    padding-bottom: 200px;
+    color: white;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.Alarm{
+    background: url("../img/wake_up_00034_qlpczh.png");
+    padding-top: 160px;
+    padding-bottom: 200px;
+    color: white;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.Notification{
+    background: url("../img/sun_rise_00000_sod6qq.png");
+    padding-top: 160px;
+    padding-bottom: 200px;
+    color: white;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.Automation{
+    background: url("../img/kitchen_cove_00000_xjllp0.png");
+    padding-top: 160px;
+    padding-bottom: 200px;
+    color: white;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.Purchase{
+    background: url("../img/qube_box_render_os9b9x.png");
+    padding-top: 140px;
+    padding-bottom: 140px;
+    color: white;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position:center;
+    text-align: center;
+}
+
+@media (max-width:641px){
+    .section-title{
+        text-align: center;
+    }
+}
+
+.product{
+    padding-top: 160px;
+}
+
+.product-section{
+    padding-top: 80px;
 }
