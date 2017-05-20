@@ -327,6 +327,16 @@ body {
     text-align: center;
 }
 
+.support{
+    background: url("../img/IMG_20161217_013032_blur_cut_2_darken_vqu9ax.png");
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: white;
+    background-size: 100% 190%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
 @media (max-width:641px){
     .section-title{
         text-align: center;
@@ -363,3 +373,4 @@ body {
 .details{
     padding: 40px 0px 40px 0px;
 }
+
