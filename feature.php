@@ -18,20 +18,20 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="img/qube_navbar_brand.webp" width="126px" height="54px"></a>
+                <a class="navbar-brand" href="index.php"><img src="img/qube_navbar_brand.webp" width="126px" height="54px"></a>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="feature.html">FEATURE</a>
+                            <a class="nav-link" href="feature.php">FEATURE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="support.html">SUPPORT</a>
+                            <a class="nav-link" href="support.php">SUPPORT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="buy-now.html">BUY NOW</a>
+                            <a class="nav-link" href="buy-now.php">BUY NOW</a>
                         </li>
                     </ul>
                 </div>
@@ -45,20 +45,20 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><img src="img/qube_navbar_brand.webp" width="126px" height="54px"></a>
+        <a class="navbar-brand" href="index.php"><img src="img/qube_navbar_brand.webp" width="126px" height="54px"></a>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="feature.html">FEATURE</a>
+                    <a class="nav-link" href="feature.php">FEATURE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="support.html">SUPPORT</a>
+                    <a class="nav-link" href="support.php">SUPPORT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="buy-now.html">BUY NOW</a>
+                    <a class="nav-link" href="buy-now.php">BUY NOW</a>
                 </li>
             </ul>
         </div>
@@ -117,7 +117,7 @@
        <div class="container">
         <h1 class="section-title">Purchase Qube At $29.99 Today</h1>
         <p class="lead text-center">Kickstart Your Smart Connected Home</p>
-        <center><a class="btn btn-lg btn-primary" href="#" role="button">Buy Now</a></center>
+        <center><a class="btn btn-lg btn-primary" href="buy-now.html" role="button">Buy Now</a></center>
        </div>
     </div>
     
