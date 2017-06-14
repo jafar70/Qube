@@ -337,6 +337,16 @@ body {
     text-align: center;
 }
 
+.contactus1{
+    background: url("../img/lights-night-unsharp-blured.jpg");
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+    background-size: 140% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
 @media (max-width:641px){
     .section-title{
         text-align: center;
@@ -374,3 +384,6 @@ body {
     padding: 40px 0px 40px 0px;
 }
 
+.navbar-toggler{
+    margin-top: 10px;
+}
