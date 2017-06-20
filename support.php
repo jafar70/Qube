@@ -221,7 +221,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         </ul>
         
         
-        <p>© 2017 Qube, Qube designs are trademarks of Qube, LLC. All rights reserved.<br>Email: social@qube-smarthome.com <br> Created by <a href="http://josalami.pythonanywhere.com/">Jafar Salami</a></p>
+        <p>© 2017 Qube, Qube designs are trademarks of Qube, LLC. All rights reserved.<br>Email: social@qube-smarthome.com <br> Created by <a href="https://josalami.herokuapp.com/" target="_blank">Jafar Salami</a></p>
     </div>
     </footer>
     <!-- Modal -->
