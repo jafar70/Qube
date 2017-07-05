@@ -119,8 +119,9 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     </div>
     <div class="">
         <div class="container">
-            <h1>Socket Selection</h1>
-            <p>Qube works with a power supply between 110-260V ranges.</p>
+            <br>
+            <h1 class="text-center">Socket Selection</h1>
+            <p class="text-center">Qube works with a power supply between 110-260V ranges.</p>
             <p style="text-align:left;text-decoration: underline;"><b>Countries that uses E26 bulbs:</b></p>
             <ul><li style="text-align:left" class="s-text-color-black">Anguilla</li><li style="text-align:left" class="s-text-color-black">Aruba</li><li style="text-align:left" class="s-text-color-black">Bahamas</li><li style="text-align:left" class="s-text-color-black">Barbados</li><li style="text-align:left" class="s-text-color-black">Belize</li><li style="text-align:left" class="s-text-color-black">Bermuda</li><li style="text-align:left" class="s-text-color-black">Canada</li><li style="text-align:left" class="s-text-color-black">Cayman Islands</li><li style="text-align:left" class="s-text-color-black">Colombia</li><li style="text-align:left" class="s-text-color-black">Costa Rica</li><li style="text-align:left" class="s-text-color-black">Cuba</li><li style="text-align:left" class="s-text-color-black">Dominican Republic</li><li style="text-align:left" class="s-text-color-black">Ecuador</li><li style="text-align:left" class="s-text-color-black">El Salvador</li><li style="text-align:left" class="s-text-color-black">Guatemala</li><li style="text-align:left" class="s-text-color-black">Haiti</li><li style="text-align:left" class="s-text-color-black">Honduras</li><li style="text-align:left" class="s-text-color-black">Jamaica</li><li style="text-align:left" class="s-text-color-black">Japan</li><li style="text-align:left" class="s-text-color-black">Libyan Arab Jamahiriya</li><li style="text-align:left" class="s-text-color-black">Mexico</li><li style="text-align:left" class="s-text-color-black">Nicaragua</li><li style="text-align:left" class="s-text-color-black">Panama</li><li style="text-align:left" class="s-text-color-black">Taiwan</li><li style="text-align:left" class="s-text-color-black">Trinidad and Tobago</li><li style="text-align:left" class="s-text-color-black">United States</li><li style="text-align:left" class="s-text-color-black">Venezuela</li><li style="text-align:left" class="s-text-color-black">Virgin Islands, British</li></ul>
             <p style="text-align:left;text-decoration: underline;"><b>Countries that uses E27 bulbs:</b></p>
@@ -142,25 +143,25 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					</div>
 					<div class="form-group">
 						<div class="col-sm-12">
-							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Enter First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
 							<?php echo "<p class='text-danger'>$errName</p>";?>
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-12">
-							<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Enter E-mail" value="<?php echo htmlspecialchars($_POST['email']); ?>">
 							<?php echo "<p class='text-danger'>$errEmail</p>";?>
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-12">
-							<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+							<textarea class="form-control" rows="4" name="message" placeholder="Enter Message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
 							<?php echo "<p class='text-danger'>$errMessage</p>";?>
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-12">
-							<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+							<input type="text" class="form-control" id="human" name="human" placeholder="2+3=?">
 							<?php echo "<p class='text-danger'>$errHuman</p>";?>
 						</div>
 					</div>

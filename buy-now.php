@@ -121,8 +121,7 @@
             <hr class="style-two">
             <h1>At a glance.</h1>
             <br><br>
-            <button type="button" class="btn btn-outline-primary" href="#" role="button" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/OqawbcKihoo"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch How It Works</button>
-
+            <a class="btn btn-lg btn-outline-primary" href="#" role="button" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/OqawbcKihoo"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch How It Works</a>
         </div>
     </div>
     

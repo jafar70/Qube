@@ -117,7 +117,7 @@
        <div class="container">
         <h1 class="section-title">Purchase Qube At $29.99 Today</h1>
         <p class="lead text-center">Kickstart Your Smart Connected Home</p>
-        <center><a class="btn btn-lg btn-primary" href="buy-now.html" role="button">Buy Now</a></center>
+        <center><a class="btn btn-lg btn-primary" href="buy-now.php" role="button">Buy Now</a></center>
        </div>
     </div>
     
