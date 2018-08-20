@@ -74,8 +74,7 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img class="first-slide" src="img/first-slide.jpg" alt="First slide">
+            <div class="carousel-item active"  style="background-image:url('img/first-slide.jpg');  background-repeat:no-repeat;background-position:center;background-size: cover;">
                 <div class="first-title carousel-caption d-md-block text-left">
                     <h1>THE WORLD'S MOST <br>AFFORDABLE MULTI-COLOR <br>SMART BULB </h1>
                     <p> Bluetooth and Wi-Fi Enabled</p>
@@ -83,16 +82,14 @@
                 </div>
 
             </div>
-            <div class="carousel-item">
-                <img class="second-slide" src="img/second-slide.jpg">
+            <div class="carousel-item" style="background-image:url('img/second-slide.jpg');  background-repeat:no-repeat;background-position:center;background-size: cover;">>
                 <div class="first-title carousel-caption d-md-block text-left">
                     <h1>INTRODUCING THE NEW<br> MULTI-COLOR SMART<br>LIGHT STRIP</h1>
                     <p>Available for Pre-Order on Indiegogo.</p>
                     <p><a class="btn btn-lg btn-primary" href="#" role="button" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/WXx-6NNChRk">Watch How It Works</a></p> 
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="second-slide" src="img/third-slide.jpg" alt="Second slide">
+            <div class="carousel-item" style="background-image:url('img/third-slide.jpg');  background-repeat:no-repeat;background-position:center;background-size: cover;">>
                 <div class="second-title carousel-caption d-md-block text-left">
                     <h1>1 BULB<br> 16M COLORS</h1>
                     <p>At just $29, Qube allows you to create smart automations and personalise your home lighting.</p>
@@ -154,8 +151,7 @@
             <li data-target="#myCarousel2" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img class="first-slide" src="img/slide2-1.jpg" alt="First slide">
+            <div class="carousel-item active"  style="background-image:url('img/slide2-1.jpg');  background-repeat:no-repeat;background-position:center;background-size: cover;">
 
                 <div class="second-title carousel-caption d-md-block text-left">
                     <h1>ENERGISE AND<br>BRIGHTEN</h1>
@@ -166,8 +162,7 @@
                 </div>
 
             </div>
-            <div class="carousel-item slidepic">
-                <img class="second-slide" src="img/slide2-2.jpg">
+            <div class="carousel-item slidepic"  style="background-image:url('img/slide2-2.jpg');  background-repeat:no-repeat;background-position:center;background-size: cover;">
                 <div class="second-title carousel-caption d-md-block text-left">
                     <h1>START YOUR<br>MORNING RIGHT</h1>
                     <p>Sync your alarm clock with QUBE and
@@ -176,8 +171,7 @@
                     <p><a class="btn btn-lg btn-primary" href="buy-now.php" role="button">Buy Now</a></p>
                 </div>
             </div>
-            <div class="carousel-item slidepic">
-                <img class="second-slide" src="img/slide2-3.jpg" alt="Second slide">
+            <div class="carousel-item slidepic" style="background-image:url('img/slide2-3.jpg');  background-repeat:no-repeat;background-position:center;background-size: cover;">
                 <div class="second-title carousel-caption d-md-block text-left">
                     <h1>1 BULB<br> 16M COLORS</h1>
                     <p>At just $29, Qube allows you to create smart automations and personalise your home lighting.</p>
